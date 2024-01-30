@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styling1.css">
+</head>
+
+<body>
+    <center>
+        <form action="transfer1.php" method="post">
+            <font color="aliceblue" size="5px">
+                <h1><u>Transfer</u></h1>
+            </font>
+            <div class="container6">
+                <table>
+                    <tr>
+                        <td>A/C Number:</td>
+                        <td>
+                            <input type="text" name="acnumber" maxlength="16" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Confirm A/C Number:</td>
+                        <td>
+                            <input type="text" name="c_acnumber" maxlength="16" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>IFSC:</td>
+                        <td>
+                            <input type="text" name="ifsc" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Account Holder Name:</td>
+                        <td><input type="text" name="acholdername" required></td>
+                    </tr>
+                    <tr>
+                        <td>Amount:</td>
+                        <td><input type="number" name="amount" required></td>
+                    </tr>
+                    <tr>
+
+                        <td colspan="2" align="center"><br>
+                            <input class="button" type="submit" value="Transfer">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </center>
+    <br><br><br><br><br><br><br>
+    <a href="home1.html"> <button>Go Back</button> </a>
+</body>
+
+</html>

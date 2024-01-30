@@ -1,0 +1,118 @@
+body {
+    background-image: image-set("bank.png");
+}
+
+select {
+    width: 300px;
+}
+
+select option {
+    width: 300px;
+}
+
+td,
+tr {
+    padding: 05px;
+    font-size: 20px;
+
+}
+
+.container1 {
+
+    background-color: aliceblue;
+    height: 390px;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.container2 {
+    padding: 10px;
+    background-color: aliceblue;
+    height: 177px;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.container3 {
+    padding: 10px;
+    background-color: aliceblue;
+    height: 240px;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.container4 {
+
+    background-color: aliceblue;
+    height: 180px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.container5 {
+    padding: 10px;
+    background-color: aliceblue;
+    height: 140px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.container6 {
+    padding: 10px;
+    background-color: aliceblue;
+    height: 260px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.container7 {
+    background-color: aliceblue;
+    height: 160px;
+    font-size: 25px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.container8 {
+    background-color: aliceblue;
+    height: 280px;
+    font-size: 25px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.container9 {
+    background-color: aliceblue;
+    height: 240px;
+    font-size: 25px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.container10 {
+    background-color: aliceblue;
+    height: 80px;
+    font-size: 25px;
+    width: 65%;
+    border-radius: 10px;
+}
+
+.container11 {
+
+    background-color: aliceblue;
+    height: 350px;
+    width: 65%;
+    border-radius: 10px;
+}
+
+.button {
+    padding: 12px 30px;
+    background-color: rgb(83, 171, 248);
+}
+
+.back {
+    height: 20px;
+    width: 40px;
+    padding: 12px 30px;
+    background-color: rgb(141, 198, 249);
+}

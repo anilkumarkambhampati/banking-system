@@ -1,0 +1,150 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styling1.css" />
+    <style>
+        select {
+            width: 170px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="registration" action="registration1.php" method="post">
+        <center>
+            <font color="aliceblue" size="5px">
+                <h1><u>Create Account</u></h1>
+            </font>
+        </center>
+        <div class="container1">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <h2><u>Candidate Details:</u></h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Full Name:</td>
+                    <td><input type="text" name="name" required /></td>
+                </tr>
+                <tr>
+                    <td>Father/Guardian Name:</td>
+                    <td><input type="text" name="FG_name" required /></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male" required />Male
+                        <input type="radio" name="gender" value="female" required />Female
+                        <input type="radio" name="gender" value="others" required />Others
+                    </td>
+                </tr>
+                <tr>
+                    <td>DOB:</td>
+                    <td>
+                        <input type="date" name="dob" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Aadhar Number:</td>
+                    <td><input type="text" name="aadhar" maxlength="12" minlength="12" required /></td>
+                </tr>
+                <tr>
+                    <td>PAN Number:</td>
+                    <td>
+                        <input type="text" name="pan" maxlength="10" minlength="10" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mobile:</td>
+                    <td>
+                        <input type="text" name="mobile" maxlength="10" minlength="10" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alternate Number:</td>
+                    <td>
+                        <input type="text" name="alternate" maxlength="10" minlength="10" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input type="email" name="mail" />
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <div class="container2">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <h2><u>Bank Details:</u></h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Branch:</td>
+                    <td><select name="branch" id="branch" width="100px" required>
+                            <option value="">Choose branch</option>
+                            <option value="sreyas">Sreyas</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Account Type:</td>
+                    <td>
+                        <input type="radio" name="actype" value="personal" required />Personal
+                        <input type="radio" name="actype" value="bussiness" required />Bussiness
+                        <input type="radio" name="actype" value="salary" required />Salary
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <div class="container3">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <h2><u>Login Information</u></h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td>
+                        <input type="text" name="username" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Create Password:</td>
+                    <td>
+                        <input type="password" name="password1" id="password1" maxlength="8" minlength="4" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Confirm Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td>
+                        <input type="password" name="password2" id="password2" maxlength="8" minlength="4" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <br /><input type="checkbox" name="checkbox" required />Accept all
+                        <a href="">Terms and conditions</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <center><input class="button" type="submit" value="submit" /></center>
+    </form>
+</body>
+
+</html>
